@@ -1,7 +1,14 @@
 #!/usr/bin/python3
+"""
+    solution for lockboxe
+"""
 
 
 def canUnlockAll(boxes):
+    """
+        this function solve lock box using
+        bfs S
+    """
     n = len(boxes)
     unlocked = [False] * n
     unlocked[0] = True

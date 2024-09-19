@@ -2,7 +2,7 @@
 """Module to calculate minimum coins for a total."""
 
 
-def make_change(coins, total):
+def makeChange(coins, total):
     """
     Calculate the minimum number of coins needed to make up a total.
 
